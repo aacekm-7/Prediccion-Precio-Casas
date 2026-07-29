@@ -35,5 +35,9 @@ Los análisis muestran que la variable que más impulsa el precio de la vivienda
 
 Ambos modelos siguen mostrando algo más de error en el segmento de viviendas de alto valor, dado que la mayoría de los datos se concentra en el rango de  100k– 350k, dejando menos ejemplos para que el modelo aprenda el comportamiento de las casas más caras.
 Este proyecto pasó por una ronda de revisión técnica que corrigió un bug de flujo de datos (los outliers detectados no se eliminaban realmente antes de modelar), incorporó la transformación logarítmica del target, y migró el preprocesamiento a un `Pipeline` de scikit-learn para eliminar fuga de información en el encoding.
-Proyecto
-Proyecto
+
+#
+
+### Proyecto
+
+- [Proyecto](https://github.com/aacekm-7/Prediccion-Precio-Casas/blob/main/model_lr_rf.ipynb)
