@@ -6,6 +6,7 @@ Proyecto de regresión que estima el precio de venta de una vivienda a partir de
 ### 🧠 Pregunta de negocio
 ¿Qué características de una vivienda explican mejor su precio, y qué tan bien puede automatizarse una estimación confiable sin recurrir a un tasador humano?
 
+#
 
 ### 🗂️ Dataset
 Ames Housing Dataset — ~1,460 registros de viviendas con variables estructurales (área habitable, calidad general, año de construcción, barrio, entre otras) junto con su precio de venta. Se seleccionaron 8 variables relevantes de las 81 disponibles en el dataset original.
