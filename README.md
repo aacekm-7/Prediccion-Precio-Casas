@@ -40,4 +40,4 @@ Este proyecto pasó por una ronda de revisión técnica que corrigió un bug de 
 
 ### Proyecto
 
-- [Proyecto](https://github.com/aacekm-7/Prediccion-Precio-Casas/blob/main/model_lr_rf.ipynb)
+[Proyecto](https://github.com/aacekm-7/Prediccion-Precio-Casas/blob/main/model_lr_rf.ipynb)
