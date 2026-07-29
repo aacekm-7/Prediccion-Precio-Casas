@@ -30,10 +30,9 @@ Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn
 #
 
 ### 📈 Resultados
-Random Forest: R² = `[COMPLETAR]` en test, tras controlar overfitting
-Regresión Lineal: R² = `[COMPLETAR]` en test
-`[COMPLETAR, ej. OverallQual]` resultó ser la variable con mayor poder predictivo, seguida de `[COMPLETAR, ej. GrLivArea]`
-💡 Aprendizajes
+Los análisis muestran que la variable que más impulsa el precio de la vivienda es GrLivArea (área habitable), seguida de OverallQual (calidad general). Random Forest superó a la Regresión Lineal en las métricas de test, y tras controlar su complejidad (max_depth=10, min_samples_leaf=5) la brecha train-test se redujo notablemente, a un costo mínimo de desempeño — un trade-off favorable que se adopta como modelo final.
+
+Ambos modelos siguen mostrando algo más de error en el segmento de viviendas de alto valor, dado que la mayoría de los datos se concentra en el rango de  100k– 350k, dejando menos ejemplos para que el modelo aprenda el comportamiento de las casas más caras.
 Este proyecto pasó por una ronda de revisión técnica que corrigió un bug de flujo de datos (los outliers detectados no se eliminaban realmente antes de modelar), incorporó la transformación logarítmica del target, y migró el preprocesamiento a un `Pipeline` de scikit-learn para eliminar fuga de información en el encoding.
 Proyecto
 Proyecto
