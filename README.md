@@ -34,4 +34,4 @@ Ambos modelos siguen mostrando algo más de error en el segmento de viviendas de
 
 ## Proyecto
 
-- [Proyecto](https://github.com/aacekm-7/Prediccion-Precio-Casas/blob/main/model_lr_rf.ipynb)
+- [Proyecto](https://github.com/aacekm-7/Prediccion-Precio-Casas/blob/main/model_v2.ipynb)
